@@ -18,3 +18,6 @@ print(imGray)
 cv2.imshow('Gray',imGray)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+
+

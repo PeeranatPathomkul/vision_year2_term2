@@ -61,7 +61,3 @@ cv2.imshow('Background Subtraction - Color', result_color)
 # รอการกดปุ่มใดๆ เพื่อปิดหน้าต่าง
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-# บันทึกผลลัพธ์ (ถ้าจำเป็น)
-cv2.imwrite('result_grayscale_manual.jpg', result_grayscale)
-cv2.imwrite('result_color_manual.jpg', result_color)
