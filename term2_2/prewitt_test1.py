@@ -49,6 +49,7 @@ plt.imshow(gradient_y, cmap='gray')
 plt.title('Prewitt Y Gradient')
 plt.axis('off')
 
+
 # 7.4 แสดงผลลัพธ์ขอบรวม
 plt.subplot(1 ,5, 4)
 plt.imshow(gradient_magnitude, cmap='gray')
