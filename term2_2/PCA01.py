@@ -50,7 +50,8 @@ from sklearn.cluster import KMeans
 # Load the dataset
 data = pd.read_csv('it_data\\data.csv')
 
-# Apply PCA
+# Apply PCA   
+
 pca = PCA(n_components=2)
 
 # Fit PCA to the dataset
